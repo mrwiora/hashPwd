@@ -1,0 +1,17 @@
+hashPwd provides hashing algorithms within a classical windows form. Current Version: 1.0b
+
+ Passwords are mostly kept simple to make them easy as possible to remember.
+ This is okay, but a certain security issue - especially for passphrases (e.g. used for key-pairs).
+
+ To bypass this issue it's possible to hash passphrases using hashing algorithms like MD5 (http://en.wikipedia.org/wiki/MD5) or SHA1 (http://en.wikipedia.org/wiki/SHA1).
+ A password like "password" then will be 
+ "5f4dcc3b5aa765d61d8327deb882cf99" (32-digit MD5) or
+ "5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8" (40-digit SHA1)
+ While using this results it's possible to double them through the other algorithm.
+
+ Further it's possible to combine a standard-password with a dynamic salt:
+ "password" + "outlook.com" = "56217be90633ae4eee03bfbe3c7538bf" (MD5)
+ "password" + "outlook.com" = "8fe821429e80caa0c65b2639826deb9ac6adabc7" (SHA1)
+
+ hashPwd allows you to do this in a classic Windows Form.
+ Please refer to the wiki for further details.
