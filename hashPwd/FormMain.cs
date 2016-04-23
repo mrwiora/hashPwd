@@ -95,6 +95,14 @@ namespace hashPwd
             }
         }
 
+        private void TextBoxPasswordKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                ButtonCopyToClipboardClick(this, new EventArgs());
+            }
+        }
+
         private void TextBoxSaltTextChanged(object sender, EventArgs e)
         {
             GetValues();
@@ -105,6 +113,14 @@ namespace hashPwd
                 buttonVerification.Text = Resource.Verification;
                 buttonVerification.BackColor = Color.Empty;
                 buttonVerification.Enabled = true;
+            }
+        }
+
+        private void textBoxSalt_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                ButtonCopyToClipboardClick(this, new EventArgs());
             }
         }
 
@@ -233,6 +249,5 @@ namespace hashPwd
         }
 
         #endregion
-
     }
 }

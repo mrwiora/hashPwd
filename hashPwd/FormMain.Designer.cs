@@ -93,6 +93,7 @@
             this.textBoxSalt.Name = "textBoxSalt";
             this.textBoxSalt.UseSystemPasswordChar = true;
             this.textBoxSalt.TextChanged += new System.EventHandler(this.TextBoxSaltTextChanged);
+            this.textBoxSalt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSalt_KeyDown);
             // 
             // checkBoxHideHash
             // 
@@ -107,6 +108,7 @@
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.UseSystemPasswordChar = true;
             this.textBoxPassword.TextChanged += new System.EventHandler(this.TextBoxPasswordTextChanged);
+            this.textBoxPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBoxPasswordKeyDown);
             // 
             // comboBoxHashType
             // 
