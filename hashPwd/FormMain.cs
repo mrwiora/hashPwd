@@ -185,6 +185,7 @@ namespace hashPwd
                 if (checkBoxClearInput.Checked)
                 {
                     ResetAll();
+                    this.WindowState = FormWindowState.Minimized;
                 }
             }
             catch (Exception ex)
