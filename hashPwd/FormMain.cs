@@ -92,6 +92,7 @@ namespace hashPwd
         {
             comboBoxHashType.SelectedIndex = comboBoxHashType.FindStringExact("SHA1");
             textBoxPassword.Text = textBoxHashValue.Text = textBoxSalt.Text = "";
+            textBoxPassword.Focus();
             checkBoxClearInput.Checked = checkBoxHideHash.Checked = true;
             buttonVerification.Text = Resource.Verification;
             buttonVerification.BackColor = Color.Empty;
