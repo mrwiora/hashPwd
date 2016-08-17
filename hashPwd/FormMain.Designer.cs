@@ -45,12 +45,12 @@
             this.buttonVerification = new System.Windows.Forms.Button();
             this.checkBoxClearInput = new System.Windows.Forms.CheckBox();
             this.groupBoxControls = new System.Windows.Forms.GroupBox();
+            this.checkBoxAppend = new System.Windows.Forms.CheckBox();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkBoxAppend = new System.Windows.Forms.CheckBox();
             this.groupBoxControls.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -178,6 +178,13 @@
             this.groupBoxControls.Name = "groupBoxControls";
             this.groupBoxControls.TabStop = false;
             // 
+            // checkBoxAppend
+            // 
+            resources.ApplyResources(this.checkBoxAppend, "checkBoxAppend");
+            this.checkBoxAppend.Name = "checkBoxAppend";
+            this.checkBoxAppend.UseVisualStyleBackColor = true;
+            this.checkBoxAppend.CheckedChanged += new System.EventHandler(this.checkBoxAppend_CheckedChanged);
+            // 
             // menuStrip
             // 
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -212,13 +219,6 @@
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItemClick);
-            // 
-            // checkBoxAppend
-            // 
-            resources.ApplyResources(this.checkBoxAppend, "checkBoxAppend");
-            this.checkBoxAppend.Name = "checkBoxAppend";
-            this.checkBoxAppend.UseVisualStyleBackColor = true;
-            this.checkBoxAppend.CheckedChanged += new System.EventHandler(this.checkBoxAppend_CheckedChanged);
             // 
             // FormMain
             // 

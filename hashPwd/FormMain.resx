@@ -130,7 +130,7 @@
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="comboBoxDouble.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+    <value>11</value>
   </data>
   <data name="&gt;&gt;comboBoxDouble.Name" xml:space="preserve">
     <value>comboBoxDouble</value>
@@ -313,7 +313,7 @@
     <value>74, 17</value>
   </data>
   <data name="checkBoxHideHash.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>21</value>
   </data>
   <data name="checkBoxHideHash.Text" xml:space="preserve">
     <value>Hide hash</value>
@@ -376,7 +376,7 @@
     <value>541, 21</value>
   </data>
   <data name="comboBoxHashType.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;comboBoxHashType.Name" xml:space="preserve">
     <value>comboBoxHashType</value>
@@ -427,7 +427,7 @@
     <value>541, 23</value>
   </data>
   <data name="buttonCopyToClipboard.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>31</value>
   </data>
   <data name="buttonCopyToClipboard.Text" xml:space="preserve">
     <value>Copy to Clipboard (10s)</value>
@@ -475,7 +475,7 @@
     <value>541, 23</value>
   </data>
   <data name="buttonVerification.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>30</value>
   </data>
   <data name="buttonVerification.Text" xml:space="preserve">
     <value>Verification</value>
@@ -502,7 +502,7 @@
     <value>76, 17</value>
   </data>
   <data name="checkBoxClearInput.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>22</value>
   </data>
   <data name="checkBoxClearInput.Text" xml:space="preserve">
     <value>Clear input</value>
@@ -532,7 +532,7 @@
     <value>63, 17</value>
   </data>
   <data name="checkBoxAppend.TabIndex" type="System.Int32, mscorlib">
-    <value>56</value>
+    <value>20</value>
   </data>
   <data name="checkBoxAppend.Text" xml:space="preserve">
     <value>Append</value>
@@ -573,6 +573,30 @@
   <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;About</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
   <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -593,30 +617,6 @@
   </data>
   <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;File</value>
-  </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 22</value>
-  </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>E&amp;xit</value>
-  </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Help</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 22</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;About</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
