@@ -18,6 +18,7 @@ namespace hashPwd
         private String m_varSalt;
         private String m_varDoubleType;
         private String m_varHashedValue;
+        private bool m_varSaltAppend;
 
         #endregion
 
@@ -82,7 +83,7 @@ namespace hashPwd
         /// </summary>
         private void UpdateHash()
         {
-            textBoxHashValue.Text = Crypto.GetHash(m_varToHash, m_varSalt, m_varHashType, m_varDoubleType);
+            textBoxHashValue.Text = Crypto.GetHash(m_varToHash, m_varSalt, m_varHashType, m_varDoubleType, m_varSaltAppend);
         }
 
         /// <summary>
@@ -94,6 +95,7 @@ namespace hashPwd
             textBoxPassword.Text = textBoxHashValue.Text = textBoxSalt.Text = "";
             textBoxPassword.Focus();
             checkBoxClearInput.Checked = checkBoxHideHash.Checked = true;
+            checkBoxAppend.Checked = false;
             buttonVerification.Text = Resource.Verification;
             buttonVerification.BackColor = Color.Empty;
             buttonCopyToClipboard.Enabled = buttonVerification.Enabled = false;
@@ -131,6 +133,12 @@ namespace hashPwd
                 buttonVerification.Text = Resource.Verification;
                 buttonVerification.BackColor = Color.Empty;
                 buttonVerification.Enabled = true;
+            }
+            if (textBoxSalt.TextLength > 0) {
+                checkBoxAppend.Enabled = true;
+            } else
+            {
+                checkBoxAppend.Enabled = false;
             }
         }
 
@@ -210,6 +218,7 @@ namespace hashPwd
                     ResetAll();
                     this.WindowState = FormWindowState.Minimized;
                 }
+
             }
             catch (Exception ex)
             {
@@ -228,13 +237,14 @@ namespace hashPwd
             m_varHashType = comboBoxHashType.Text;
             m_varDoubleType = comboBoxDouble.Text;
             m_varHashedValue = textBoxHashValue.Text;
+            m_varSaltAppend = checkBoxAppend.Checked;
         }
 
         private void ButtonVerificationClick(object sender, EventArgs e)
         {
             GetValues();
 
-            using (var validationForm = new FormValidation(m_varHashedValue, m_varHashType, m_varDoubleType))
+            using (var validationForm = new FormValidation(m_varHashedValue, m_varHashType, m_varDoubleType, m_varSaltAppend))
             {
                 if (validationForm.ShowDialog() == DialogResult.OK)
                 {
@@ -260,5 +270,11 @@ namespace hashPwd
         }
 
         #endregion
+
+        private void checkBoxAppend_CheckedChanged(object sender, EventArgs e)
+        {
+            GetValues();
+            UpdateHash();
+        }
     }
 }

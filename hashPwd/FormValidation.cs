@@ -12,6 +12,7 @@ namespace hashPwd
         private readonly String m_varHash;
         private readonly String m_varType;
         private readonly String m_varDouble;
+        private readonly bool m_varSaltAppend;
 
         private String m_varToHashVerify;
         private String m_varToSaltVerify;
@@ -21,12 +22,13 @@ namespace hashPwd
 
         #region Constructor
 
-        public FormValidation(string varHashedValue, string varHashType, string varDoubleType)
+        public FormValidation(string varHashedValue, string varHashType, string varDoubleType, bool varSaltAppend)
         {
             InitializeComponent();
             m_varHash = varHashedValue;
             m_varType = varHashType;
             m_varDouble = varDoubleType;
+            m_varSaltAppend = varSaltAppend;
             DialogResult = DialogResult.Cancel;
         }
 
@@ -44,7 +46,7 @@ namespace hashPwd
         private void TextBoxPasswordChanged(object sender, EventArgs e)
         {
             GetValues();
-            var hash = Crypto.GetHash(m_varToHashVerify, m_varToSaltVerify, m_varType, m_varDouble);
+            var hash = Crypto.GetHash(m_varToHashVerify, m_varToSaltVerify, m_varType, m_varDouble, m_varSaltAppend);
 
             if (m_varHash == hash)
             {

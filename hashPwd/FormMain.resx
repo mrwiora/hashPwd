@@ -142,7 +142,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;comboBoxDouble.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="labelDouble.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -169,7 +169,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;labelDouble.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="labelHashType.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -196,7 +196,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;labelHashType.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="labelHashedValue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -223,7 +223,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;labelHashedValue.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="labelPassword.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -250,7 +250,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;labelPassword.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="labelSalt.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -277,7 +277,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;labelSalt.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="textBoxSalt.Location" type="System.Drawing.Point, System.Drawing">
     <value>96, 105</value>
@@ -301,7 +301,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;textBoxSalt.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="checkBoxHideHash.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -328,7 +328,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;checkBoxHideHash.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="textBoxPassword.Location" type="System.Drawing.Point, System.Drawing">
     <value>96, 77</value>
@@ -349,7 +349,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;textBoxPassword.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="comboBoxHashType.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -388,7 +388,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;comboBoxHashType.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="progressBarTimeLeft.Location" type="System.Drawing.Point, System.Drawing">
     <value>96, 175</value>
@@ -415,7 +415,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;progressBarTimeLeft.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="buttonCopyToClipboard.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -442,7 +442,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;buttonCopyToClipboard.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="textBoxHashValue.Location" type="System.Drawing.Point, System.Drawing">
     <value>96, 160</value>
@@ -463,7 +463,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;textBoxHashValue.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="buttonVerification.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -490,7 +490,7 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;buttonVerification.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="checkBoxClearInput.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -517,6 +517,36 @@
     <value>groupBoxControls</value>
   </data>
   <data name="&gt;&gt;checkBoxClearInput.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxAppend.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxAppend.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBoxAppend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>643, 108</value>
+  </data>
+  <data name="checkBoxAppend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="checkBoxAppend.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="checkBoxAppend.Text" xml:space="preserve">
+    <value>Append</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAppend.Name" xml:space="preserve">
+    <value>checkBoxAppend</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAppend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAppend.Parent" xml:space="preserve">
+    <value>groupBoxControls</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAppend.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="groupBoxControls.Location" type="System.Drawing.Point, System.Drawing">

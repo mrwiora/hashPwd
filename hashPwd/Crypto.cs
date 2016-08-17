@@ -16,7 +16,7 @@ namespace hashPwd
         /// <param name="varHashType">Hash Type</param>
         /// <param name="varDoubleType">Double Type</param>
         /// <returns></returns>
-        public static String GetHash(String varToHash, String varSalt, String varHashType, String varDoubleType)
+        public static String GetHash(String varToHash, String varSalt, String varHashType, String varDoubleType, bool varSaltAppend)
         {
             var result = string.Empty;
 
@@ -25,19 +25,19 @@ namespace hashPwd
                 switch (varHashType.ToUpper())
                 {
                     case "MD5":
-                        result = GenerateHash(MD5.Create(), varToHash, varSalt);
+                        result = GenerateHash(MD5.Create(), varToHash, varSalt, varSaltAppend);
                         break;
 
                     case "SHA1":
-                        result = GenerateHash(SHA1.Create(), varToHash, varSalt);
+                        result = GenerateHash(SHA1.Create(), varToHash, varSalt, varSaltAppend);
                         break;
 
                     case "SHA256":
-                        result = GenerateHash(SHA256.Create(), varToHash, varSalt);
+                        result = GenerateHash(SHA256.Create(), varToHash, varSalt, varSaltAppend);
                         break;
 
                     case "SHA512":
-                        result = GenerateHash(SHA512.Create(), varToHash, varSalt);
+                        result = GenerateHash(SHA512.Create(), varToHash, varSalt, varSaltAppend);
                         break;
 
                     default:
@@ -67,9 +67,15 @@ namespace hashPwd
         /// <param name="varToHash">Value to Hash</param>
         /// <param name="varSalt">Salt Value</param>
         /// <returns>Generated hash value</returns>
-        private static String GenerateHash(HashAlgorithm algo, String varToHash, String varSalt = "")
+        private static String GenerateHash(HashAlgorithm algo, String varToHash, String varSalt = "", bool varSaltAppend = true)
         {
-            var varToHashSum = varSalt + varToHash;
+            var varToHashSum = "";
+            if (varSaltAppend) {
+                varToHashSum = varToHash + varSalt;
+            } else
+            {
+                varToHashSum = varSalt + varToHash;
+            }
             var hash = algo.ComputeHash(Encoding.UTF8.GetBytes(varToHashSum));
             var digest = new StringBuilder();
 
