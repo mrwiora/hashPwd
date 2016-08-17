@@ -18,6 +18,7 @@ namespace hashPwd
         private String m_varSalt;
         private String m_varDoubleType;
         private String m_varHashedValue;
+        private String m_varLastHashBuffer;
         private bool m_varSaltAppend;
 
         #endregion
@@ -198,7 +199,11 @@ namespace hashPwd
             }
             else if (m_timeLeft == 0)
             {
-                Clipboard.Clear();
+                if (Clipboard.GetText() == m_varLastHashBuffer)
+                {
+                    Clipboard.Clear();
+                }
+                m_varLastHashBuffer = "";
                 progressBarTimeLeft.Hide();
             }
 
@@ -210,6 +215,7 @@ namespace hashPwd
             try
             {
                 Clipboard.SetText(textBoxHashValue.Text);
+                m_varLastHashBuffer = textBoxHashValue.Text;
                 m_timeLeft = 10;
                 progressBarTimeLeft.Show();
 

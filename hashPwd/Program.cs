@@ -31,6 +31,7 @@ namespace hashPwd
                     IntPtr.Zero,
                     IntPtr.Zero);
             }
+            Clipboard.Clear();
         }
     }
 }
