@@ -51,6 +51,7 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkBoxBase64 = new System.Windows.Forms.CheckBox();
             this.groupBoxControls.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -157,6 +158,7 @@
             // 
             // groupBoxControls
             // 
+            this.groupBoxControls.Controls.Add(this.checkBoxBase64);
             this.groupBoxControls.Controls.Add(this.checkBoxAppend);
             this.groupBoxControls.Controls.Add(this.checkBoxClearInput);
             this.groupBoxControls.Controls.Add(this.buttonVerification);
@@ -187,6 +189,7 @@
             // 
             // menuStrip
             // 
+            this.menuStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.helpToolStripMenuItem});
@@ -219,6 +222,13 @@
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItemClick);
+            // 
+            // checkBoxBase64
+            // 
+            resources.ApplyResources(this.checkBoxBase64, "checkBoxBase64");
+            this.checkBoxBase64.Name = "checkBoxBase64";
+            this.checkBoxBase64.UseVisualStyleBackColor = true;
+            this.checkBoxBase64.CheckedChanged += new System.EventHandler(this.checkBoxBase64_CheckedChanged);
             // 
             // FormMain
             // 
@@ -264,6 +274,7 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.CheckBox checkBoxAppend;
+        private System.Windows.Forms.CheckBox checkBoxBase64;
     }
 }
 

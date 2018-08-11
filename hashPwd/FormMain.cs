@@ -20,6 +20,7 @@ namespace hashPwd
         private String m_varHashedValue;
         private String m_varLastHashBuffer;
         private bool m_varSaltAppend;
+        private bool m_varBase64;
 
         #endregion
 
@@ -65,6 +66,7 @@ namespace hashPwd
             }
             base.WndProc(ref m);
         }
+
         private void ShowMe()
         {
             if (WindowState == FormWindowState.Minimized)
@@ -84,7 +86,7 @@ namespace hashPwd
         /// </summary>
         private void UpdateHash()
         {
-            textBoxHashValue.Text = Crypto.GetHash(m_varToHash, m_varSalt, m_varHashType, m_varDoubleType, m_varSaltAppend);
+            textBoxHashValue.Text = Crypto.GetHash(m_varToHash, m_varSalt, m_varHashType, m_varDoubleType, m_varSaltAppend, m_varBase64);
         }
 
         /// <summary>
@@ -97,6 +99,7 @@ namespace hashPwd
             textBoxPassword.Focus();
             checkBoxClearInput.Checked = checkBoxHideHash.Checked = true;
             checkBoxAppend.Checked = false;
+            checkBoxBase64.Checked = true;
             buttonVerification.Text = Resource.Verification;
             buttonVerification.BackColor = Color.Empty;
             buttonCopyToClipboard.Enabled = buttonVerification.Enabled = false;
@@ -244,13 +247,14 @@ namespace hashPwd
             m_varDoubleType = comboBoxDouble.Text;
             m_varHashedValue = textBoxHashValue.Text;
             m_varSaltAppend = checkBoxAppend.Checked;
+            m_varBase64 = checkBoxBase64.Checked;
         }
 
         private void ButtonVerificationClick(object sender, EventArgs e)
         {
             GetValues();
 
-            using (var validationForm = new FormValidation(m_varHashedValue, m_varHashType, m_varDoubleType, m_varSaltAppend))
+            using (var validationForm = new FormValidation(m_varHashedValue, m_varHashType, m_varDoubleType, m_varSaltAppend, m_varBase64))
             {
                 if (validationForm.ShowDialog() == DialogResult.OK)
                 {
@@ -278,6 +282,12 @@ namespace hashPwd
         #endregion
 
         private void checkBoxAppend_CheckedChanged(object sender, EventArgs e)
+        {
+            GetValues();
+            UpdateHash();
+        }
+
+        private void checkBoxBase64_CheckedChanged(object sender, EventArgs e)
         {
             GetValues();
             UpdateHash();
