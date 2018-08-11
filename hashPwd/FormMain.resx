@@ -123,13 +123,10 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="comboBoxDouble.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 72</value>
-  </data>
-  <data name="comboBoxDouble.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>96, 47</value>
   </data>
   <data name="comboBoxDouble.Size" type="System.Drawing.Size, System.Drawing">
-    <value>810, 28</value>
+    <value>541, 21</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="comboBoxDouble.TabIndex" type="System.Int32, mscorlib">
@@ -151,13 +148,10 @@
     <value>True</value>
   </data>
   <data name="labelDouble.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 77</value>
-  </data>
-  <data name="labelDouble.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>11, 50</value>
   </data>
   <data name="labelDouble.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
+    <value>41, 13</value>
   </data>
   <data name="labelDouble.TabIndex" type="System.Int32, mscorlib">
     <value>52</value>
@@ -181,13 +175,10 @@
     <value>True</value>
   </data>
   <data name="labelHashType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 34</value>
-  </data>
-  <data name="labelHashType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>11, 22</value>
   </data>
   <data name="labelHashType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 20</value>
+    <value>59, 13</value>
   </data>
   <data name="labelHashType.TabIndex" type="System.Int32, mscorlib">
     <value>51</value>
@@ -211,13 +202,10 @@
     <value>True</value>
   </data>
   <data name="labelHashedValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 251</value>
-  </data>
-  <data name="labelHashedValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>11, 163</value>
   </data>
   <data name="labelHashedValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 20</value>
+    <value>74, 13</value>
   </data>
   <data name="labelHashedValue.TabIndex" type="System.Int32, mscorlib">
     <value>55</value>
@@ -241,13 +229,10 @@
     <value>True</value>
   </data>
   <data name="labelPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 123</value>
-  </data>
-  <data name="labelPassword.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>11, 80</value>
   </data>
   <data name="labelPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 20</value>
+    <value>53, 13</value>
   </data>
   <data name="labelPassword.TabIndex" type="System.Int32, mscorlib">
     <value>53</value>
@@ -271,13 +256,10 @@
     <value>True</value>
   </data>
   <data name="labelSalt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 166</value>
-  </data>
-  <data name="labelSalt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>11, 108</value>
   </data>
   <data name="labelSalt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
+    <value>25, 13</value>
   </data>
   <data name="labelSalt.TabIndex" type="System.Int32, mscorlib">
     <value>54</value>
@@ -298,16 +280,13 @@
     <value>11</value>
   </data>
   <data name="textBoxSalt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 162</value>
-  </data>
-  <data name="textBoxSalt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>96, 105</value>
   </data>
   <data name="textBoxSalt.MaxLength" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="textBoxSalt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>810, 26</value>
+    <value>541, 20</value>
   </data>
   <data name="textBoxSalt.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -328,13 +307,10 @@
     <value>True</value>
   </data>
   <data name="checkBoxHideHash.Location" type="System.Drawing.Point, System.Drawing">
-    <value>964, 249</value>
-  </data>
-  <data name="checkBoxHideHash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>643, 162</value>
   </data>
   <data name="checkBoxHideHash.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 24</value>
+    <value>74, 17</value>
   </data>
   <data name="checkBoxHideHash.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -355,13 +331,10 @@
     <value>9</value>
   </data>
   <data name="textBoxPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 118</value>
-  </data>
-  <data name="textBoxPassword.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>96, 77</value>
   </data>
   <data name="textBoxPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>810, 26</value>
+    <value>541, 20</value>
   </data>
   <data name="textBoxPassword.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -391,19 +364,19 @@
     <value>SHA256</value>
   </data>
   <data name="comboBoxHashType.Items3" xml:space="preserve">
+    <value>SHA384</value>
+  </data>
+  <data name="comboBoxHashType.Items4" xml:space="preserve">
     <value>SHA512</value>
   </data>
   <data name="comboBoxHashType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 29</value>
-  </data>
-  <data name="comboBoxHashType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>96, 19</value>
   </data>
   <data name="comboBoxHashType.MaxDropDownItems" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="comboBoxHashType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>810, 28</value>
+    <value>541, 21</value>
   </data>
   <data name="comboBoxHashType.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -421,13 +394,13 @@
     <value>7</value>
   </data>
   <data name="progressBarTimeLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 269</value>
+    <value>96, 175</value>
   </data>
   <data name="progressBarTimeLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="progressBarTimeLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>812, 35</value>
+    <value>541, 23</value>
   </data>
   <data name="progressBarTimeLeft.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -451,13 +424,10 @@
     <value>False</value>
   </data>
   <data name="buttonCopyToClipboard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 286</value>
-  </data>
-  <data name="buttonCopyToClipboard.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>96, 186</value>
   </data>
   <data name="buttonCopyToClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>812, 35</value>
+    <value>541, 23</value>
   </data>
   <data name="buttonCopyToClipboard.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -478,13 +448,10 @@
     <value>5</value>
   </data>
   <data name="textBoxHashValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 246</value>
-  </data>
-  <data name="textBoxHashValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>96, 160</value>
   </data>
   <data name="textBoxHashValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>810, 26</value>
+    <value>541, 20</value>
   </data>
   <data name="textBoxHashValue.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -505,13 +472,10 @@
     <value>False</value>
   </data>
   <data name="buttonVerification.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 202</value>
-  </data>
-  <data name="buttonVerification.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>96, 131</value>
   </data>
   <data name="buttonVerification.Size" type="System.Drawing.Size, System.Drawing">
-    <value>812, 35</value>
+    <value>541, 23</value>
   </data>
   <data name="buttonVerification.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -535,13 +499,10 @@
     <value>True</value>
   </data>
   <data name="checkBoxClearInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>964, 292</value>
-  </data>
-  <data name="checkBoxClearInput.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>643, 190</value>
   </data>
   <data name="checkBoxClearInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 24</value>
+    <value>76, 17</value>
   </data>
   <data name="checkBoxClearInput.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -565,10 +526,13 @@
     <value>True</value>
   </data>
   <data name="checkBoxBase64.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 292</value>
+    <value>13, 190</value>
+  </data>
+  <data name="checkBoxBase64.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="checkBoxBase64.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 24</value>
+    <value>61, 17</value>
   </data>
   <data name="checkBoxBase64.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -595,13 +559,10 @@
     <value>False</value>
   </data>
   <data name="checkBoxAppend.Location" type="System.Drawing.Point, System.Drawing">
-    <value>964, 166</value>
-  </data>
-  <data name="checkBoxAppend.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>643, 108</value>
   </data>
   <data name="checkBoxAppend.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 24</value>
+    <value>63, 17</value>
   </data>
   <data name="checkBoxAppend.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -622,16 +583,10 @@
     <value>1</value>
   </data>
   <data name="groupBoxControls.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 43</value>
-  </data>
-  <data name="groupBoxControls.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="groupBoxControls.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>12, 28</value>
   </data>
   <data name="groupBoxControls.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1090, 343</value>
+    <value>727, 223</value>
   </data>
   <data name="groupBoxControls.TabIndex" type="System.Int32, mscorlib">
     <value>100</value>
@@ -651,14 +606,35 @@
   <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;About</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
   <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="menuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>9, 3, 0, 3</value>
-  </data>
   <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1126, 35</value>
+    <value>751, 24</value>
   </data>
   <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -675,41 +651,14 @@
   <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 29</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;File</value>
-  </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 30</value>
-  </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>E&amp;xit</value>
-  </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 29</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Help</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 30</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;About</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1126, 405</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>751, 263</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>hashPwd</value>

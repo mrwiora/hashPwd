@@ -36,6 +36,10 @@ namespace hashPwd
                         result = GenerateHash(SHA256.Create(), varToHash, varSalt, varSaltAppend, varBase64);
                         break;
 
+                    case "SHA384":
+                        result = GenerateHash(SHA384.Create(), varToHash, varSalt, varSaltAppend, varBase64);
+                        break;
+
                     case "SHA512":
                         result = GenerateHash(SHA512.Create(), varToHash, varSalt, varSaltAppend, varBase64);
                         break;

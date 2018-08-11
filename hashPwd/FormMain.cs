@@ -155,6 +155,7 @@ namespace hashPwd
             {
                 case "SHA1":
                 case "SHA256":
+                case "SHA384":
                 case "SHA512":
                     comboBoxDouble.Items.Add(Resource.None);
                     comboBoxDouble.Items.Add("MD5");

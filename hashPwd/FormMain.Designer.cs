@@ -45,13 +45,13 @@
             this.buttonVerification = new System.Windows.Forms.Button();
             this.checkBoxClearInput = new System.Windows.Forms.CheckBox();
             this.groupBoxControls = new System.Windows.Forms.GroupBox();
+            this.checkBoxBase64 = new System.Windows.Forms.CheckBox();
             this.checkBoxAppend = new System.Windows.Forms.CheckBox();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkBoxBase64 = new System.Windows.Forms.CheckBox();
             this.groupBoxControls.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -119,7 +119,8 @@
             resources.GetString("comboBoxHashType.Items"),
             resources.GetString("comboBoxHashType.Items1"),
             resources.GetString("comboBoxHashType.Items2"),
-            resources.GetString("comboBoxHashType.Items3")});
+            resources.GetString("comboBoxHashType.Items3"),
+            resources.GetString("comboBoxHashType.Items4")});
             this.comboBoxHashType.Name = "comboBoxHashType";
             this.comboBoxHashType.SelectedIndexChanged += new System.EventHandler(this.ComboBoxHashTypeSelectedIndexChangedChanged);
             // 
@@ -180,6 +181,13 @@
             this.groupBoxControls.Name = "groupBoxControls";
             this.groupBoxControls.TabStop = false;
             // 
+            // checkBoxBase64
+            // 
+            resources.ApplyResources(this.checkBoxBase64, "checkBoxBase64");
+            this.checkBoxBase64.Name = "checkBoxBase64";
+            this.checkBoxBase64.UseVisualStyleBackColor = true;
+            this.checkBoxBase64.CheckedChanged += new System.EventHandler(this.checkBoxBase64_CheckedChanged);
+            // 
             // checkBoxAppend
             // 
             resources.ApplyResources(this.checkBoxAppend, "checkBoxAppend");
@@ -222,13 +230,6 @@
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItemClick);
-            // 
-            // checkBoxBase64
-            // 
-            resources.ApplyResources(this.checkBoxBase64, "checkBoxBase64");
-            this.checkBoxBase64.Name = "checkBoxBase64";
-            this.checkBoxBase64.UseVisualStyleBackColor = true;
-            this.checkBoxBase64.CheckedChanged += new System.EventHandler(this.checkBoxBase64_CheckedChanged);
             // 
             // FormMain
             // 
