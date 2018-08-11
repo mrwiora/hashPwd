@@ -1,7 +1,7 @@
-hashPwd provides hashing algorithms within a classical windows form. Current Version: 1.0b
+hashPwd provides hashing algorithms within a classical windows form.
 
  Passwords are mostly kept simple to make them easy as possible to remember.
- This is okay, but a certain security issue - especially for passphrases (e.g. used for key-pairs).
+ This is okay, but a certain security issue - especially for passphrases used for encryption.
 
  To bypass this issue it's possible to hash passphrases using hashing algorithms like MD5 (http://en.wikipedia.org/wiki/MD5) or SHA1 (http://en.wikipedia.org/wiki/SHA1).
  A password like "password" then will be 
@@ -10,8 +10,12 @@ hashPwd provides hashing algorithms within a classical windows form. Current Ver
  While using this results it's possible to double them through the other algorithm.
 
  Further it's possible to combine a standard-password with a dynamic salt:
- "password" + "outlook.com" = "56217be90633ae4eee03bfbe3c7538bf" (MD5)
- "password" + "outlook.com" = "8fe821429e80caa0c65b2639826deb9ac6adabc7" (SHA1)
+ "password" + "outlook.com" = "56217be90633ae4eee03bfbe3c7538bf" (MD5+SALT)
+ "password" + "outlook.com" = "8fe821429e80caa0c65b2639826deb9ac6adabc7" (SHA1+SALT)
+
+to enlarge the pool of possible characters from lowercase characters from a to f and digits from 0 to 9 it's my recommendation to base64 the resulting hash.
+"password" + "outlook.com" = "NTYyMTdiZTkwNjMzYWU0ZWVlMDNiZmJlM2M3NTM4YmY=" (base64(MD5+SALT))
+"password" + "outlook.com" = "OGZlODIxNDI5ZTgwY2FhMGM2NWIyNjM5ODI2ZGViOWFjNmFkYWJjNw==" (base64(SHA1+SALT))
 
  hashPwd allows you to do this in a classic Windows Form.
  Please refer to the wiki for further details.
