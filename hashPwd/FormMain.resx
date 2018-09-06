@@ -433,7 +433,7 @@
     <value>31</value>
   </data>
   <data name="buttonCopyToClipboard.Text" xml:space="preserve">
-    <value>Copy to Clipboard (10s)</value>
+    <value>Copy to Clipboard</value>
   </data>
   <data name="&gt;&gt;buttonCopyToClipboard.Name" xml:space="preserve">
     <value>buttonCopyToClipboard</value>
