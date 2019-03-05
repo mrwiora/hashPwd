@@ -10,7 +10,7 @@ namespace hashPwd
         #region Member
 
         private const int TimeMin = 0;
-        private const int TimeMax = 10;
+        private const int TimeMax = 30;
         private int m_timeLeft;
 
         private String m_varToHash;
@@ -220,7 +220,7 @@ namespace hashPwd
             {
                 Clipboard.SetText(textBoxHashValue.Text);
                 m_varLastHashBuffer = textBoxHashValue.Text;
-                m_timeLeft = 10;
+                m_timeLeft = TimeMax;
                 progressBarTimeLeft.Show();
 
                 if (checkBoxClearInput.Checked)
